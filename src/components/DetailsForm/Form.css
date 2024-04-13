@@ -1,0 +1,108 @@
+.select-wallet-wrapper2 {
+    background-color: white;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding-top: 20px;
+     padding-bottom: 20px;
+ }
+ 
+ .header-text2{
+     
+ }
+ .header-warning2{
+    color:  black;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+ 
+ .header2{
+     text-align: center;
+     margin-bottom: 30px;
+     color: black;
+     font-size: 30px;
+ }
+ 
+ 
+ .select-cont2{
+     margin-left: auto;
+     margin-right: auto;
+     width: 80%;
+     margin-top: 100px;
+ }
+ .wallet-type2{
+     margin-bottom: 30px;   
+ }
+ .form-instruction2{
+     color: black;
+     text-align: center;
+     margin-top: 30px;
+ }
+ 
+ .button-group2{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 30px;
+ }
+ 
+ .button-connect2{
+     width:45%;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     border-radius: 5px;
+     font-size: 20px;
+     border:none;
+     background-color: rgba(0, 0, 255, 0.9);
+     color: white;
+ 
+ }
+ .button-cancel2{
+ margin-left: 5px;
+ width:25%;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ border-radius: 5px;
+ font-size: 20px;
+ border:none;
+ background-color: rgba(255, 0, 0, 0.842);
+ color: white;
+ }
+ 
+ /* */
+ 
+ @media only screen and (max-width: 1200px) {
+     .select-wallet-wrapper2 {  
+         width: 70%;    
+      }
+   }
+ 
+   @media only screen and (max-width: 700px) {
+     .select-wallet-wrapper2 {  
+         width: 90%;    
+      }
+      .button-group2{
+         flex-direction: column;
+         margin-top: 30px;
+     }
+ 
+     .button-cancel2{
+         margin-left: 0px;
+         margin-top: 15px;
+         width:80%;
+         color: white;
+         }
+         .button-connect2{
+             width:80%;
+             padding-top: 10px;
+             padding-bottom: 10px;
+             border-radius: 5px; 
+         }
+         .header2{
+             font-size: 25px;
+             display: none;
+         }
+ 
+   }

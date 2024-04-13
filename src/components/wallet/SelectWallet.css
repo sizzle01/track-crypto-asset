@@ -1,0 +1,137 @@
+.select-wallet-wrapper {
+   background-color: white;
+   width: 55%;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 10px;
+   padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header-text{ 
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+    font-size: 30px;
+   
+}
+
+.header-warning{
+    color:  red;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+
+.select-cont{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 10px;
+}
+.wallet-type{
+    margin-bottom: 30px;   
+}
+.form-instruction{
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  
+}
+
+.button-connect{
+    width:100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    border:none;
+    background-color: rgba(0, 0, 255, 0.9);
+    color: white;
+
+}
+.button-cancel{
+margin-left: 5px;
+width:15%;
+padding: 10px;
+border-radius: 5px;
+font-size: 20px;
+border:none;
+background-color: rgba(255, 0, 0, 0.842);
+color: white;
+}
+
+.modal-button-group{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+} 
+
+/* */
+
+@media only screen and (max-width: 1200px) {
+    .select-wallet-wrapper {  
+        width: 80%;    
+     }
+    
+  }
+
+  @media only screen and (max-width: 700px) {
+    .select-wallet-wrapper {  
+        width: 90%;    
+     }
+     .button-group{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .button-cancel{
+        margin-top: 15px;
+        width:33%;
+        color: white;
+        margin-left: 0px;
+        font-size: 15px;
+        }
+        .button-connect{
+            width:100%;
+           padding-left: 10px;
+           padding-right: 10px;
+           padding-top: 10px;
+           padding-bottom: 10px;
+            border-radius: 5px; 
+            font-size: 15px;
+            
+        }
+        .header{
+            margin-bottom: 5px;
+            font-size: 17px;
+        }
+        .header-warning{
+            color:  red;
+            font-size: 12px;
+        }
+        .select-cont{
+            width: 95%;
+            margin-top: 10px;
+        }
+        .form-instruction{
+            font-size: 14px;
+        }
+        
+        .modal-button-group{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+         } 
+
+  }
